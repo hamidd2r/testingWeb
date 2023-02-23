@@ -2719,11 +2719,36 @@ Primary use:	Showcase Portfolio
 		transition: color 0.05s ease-in-out;
 	}
 	
+	.button-text-contact-us {
+		font-weight: 500;
+		font-size: 14px;
+		line-height:30px;
+		/* margin:25px 0; */
+		overflow: hidden;
+		width:auto;
+		padding:0 10px;
+		color:#000;
+		-webkit-transition: color 0.05s ease-in-out;
+		transition: color 0.05s ease-in-out;
+	}
+	
 	#main #hero-footer .button-text span::after {
 		content:none;
 	}
 	
 	#main .button-text {
+		font-size: 16px;
+		line-height:30px;
+		font-weight: 400;
+		margin:15px 0;
+		transition: transform .2s ease-out;
+	}
+
+	#main #hero-footer .button-text-contact-us span::after {
+		content:none;
+	}
+	
+	#main .button-text-contact-us {
 		font-size: 16px;
 		line-height:30px;
 		font-weight: 400;
@@ -2742,8 +2767,18 @@ Primary use:	Showcase Portfolio
 		margin:15px 0;
 		transition: transform .2s ease-out;
 	}
+
+	#main .large-btn .button-text-contact-us {
+		font-size: 18px!important;
+		font-weight:500;
+		margin:35px 0;
+		transition: transform .2s ease-out;
+	}
 	
 	.light-content .button-text, .dark-section .button-text {
+		color:#fff;
+	}
+	.light-content .button-text-contact-us, .dark-section .button-text-contact-us {
 		color:#fff;
 	}
 	
@@ -2756,6 +2791,9 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.light-content .white-header .button-text {
+		color:#000;		
+	}
+	.light-content .white-header .button-text-contact-us {
 		color:#000;		
 	}
 	
@@ -2773,8 +2811,26 @@ Primary use:	Showcase Portfolio
 		float: right;
 		padding-left:0px;
 	}
+
+	.button-wrap.right .button-text-contact-us {
+		text-align: left;
+		float: right;
+		padding-left: 0px;
+	}
+	.button-wrap.right .button-text-contact-us span {
+		text-align: right;
+	}
 	
 	.button-text span {
+		position: relative;
+		display: inline-block;
+		-webkit-transition: -webkit-transform 0.2s;
+		transition: transform 0.2s;
+		width:auto;
+		text-align:center;
+		transform-origin: 100% 0%;
+	}
+	.button-text-contact-us span {
 		position: relative;
 		display: inline-block;
 		-webkit-transition: -webkit-transform 0.2s;
