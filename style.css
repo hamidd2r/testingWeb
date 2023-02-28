@@ -675,6 +675,17 @@ Primary use:	Showcase Portfolio
 		color:#444;
 	}
 	
+
+	/* @media screen and (min-width: 800px) {
+
+		.light-content .light-section p {
+			color:#444;
+			width: 800px!important;
+		}
+	
+		
+	} */
+	
 	.bigger {
 		font-size: 18px;
 		line-height: 32px;
