@@ -674,9 +674,8 @@ Primary use:	Showcase Portfolio
 	.light-content .light-section p {
 		color:#444;
 	}
-	
 
-	/* @media screen and (min-width: 800px) {
+	@media screen and (min-width: 1000px) {
 
 		.light-content .light-section p {
 			color:#444;
@@ -684,7 +683,7 @@ Primary use:	Showcase Portfolio
 		}
 	
 		
-	} */
+	}
 	
 	.bigger {
 		font-size: 18px;
