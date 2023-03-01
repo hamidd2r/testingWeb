@@ -857,11 +857,11 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.row_padding_top {
-		padding-top:8vw;
+		padding-top:5vw;
 	}
 	
 	.row_padding_bottom {
-		padding-bottom:8vw;
+		/* padding-bottom:8vw; */
 	}
 	
 	.row_padding_left {
@@ -1020,6 +1020,7 @@ Primary use:	Showcase Portfolio
 		transform: translateY(20px);
 		-webkit-transform: translateY(20px);
 		transition: all 0.15s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		line-height: 1.5;
 	}
 	
 	.light-content #ball:before, .light-content #ball:after {
@@ -1042,6 +1043,7 @@ Primary use:	Showcase Portfolio
 		transform: translateY(0px);
 		-webkit-transform: translateY(0px);
 		transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		line-height: 1.5;
 	}
 	
 	.scale-drag-horizontal #ball:after {
@@ -3005,9 +3007,10 @@ Primary use:	Showcase Portfolio
 @media only screen and (max-width: 1466px) {
 	
 	h1.big-title {
-		font-size: 11vw;
+		font-size: 9vw;
 		line-height: 14vw;
 	}
+
 	
 	.row_padding_all {
 		padding-left: 60px;
