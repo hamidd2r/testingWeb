@@ -819,6 +819,7 @@ Primary use:	Showcase Portfolio
 		position: relative;
 		box-sizing: border-box;
 		width: 100%;
+		/* padding-top: 3vw; */
 		margin: 0 auto;
 	}
 	
@@ -861,7 +862,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.row_padding_bottom {
-		/* padding-bottom:8vw; */
+		padding-bottom:5vw;
 	}
 	
 	.row_padding_left {
