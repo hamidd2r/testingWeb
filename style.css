@@ -728,7 +728,7 @@ Primary use:	Showcase Portfolio
 	}	
 
 	.one_third {
-		width: 30.6%!important;
+		width: 33.2%!important;
 	}	
 
 	.one_fourth {
@@ -819,7 +819,7 @@ Primary use:	Showcase Portfolio
 		position: relative;
 		box-sizing: border-box;
 		width: 100%;
-		/* padding-top: 3vw; */
+		padding-top: 3vw;
 		margin: 0 auto;
 	}
 	
@@ -3805,4 +3805,27 @@ Primary use:	Showcase Portfolio
 	#rotate-device {
 		display:block;
 	}
+}
+
+.button1 {
+    appearance: auto;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+
+    border-color: buttonborder;
+    border-image: initial;
 }
