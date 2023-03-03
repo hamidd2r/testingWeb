@@ -819,7 +819,7 @@ Primary use:	Showcase Portfolio
 		position: relative;
 		box-sizing: border-box;
 		width: 100%;
-		padding-top: 3vw;
+		/* padding-top: 3vw; */
 		margin: 0 auto;
 	}
 	
