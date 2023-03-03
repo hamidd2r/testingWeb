@@ -467,7 +467,7 @@ jQuery(function ($) {
 			var swapOpts = {
 				slides: document.querySelectorAll('.preloader-list'),
 				list: document.querySelector('.preloader-intro'),
-				duration: 0,
+				duration: 0.5, //changed from 0 to 0.5
 				lineHeight: $('.preloader-intro').height()
 			}
 

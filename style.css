@@ -3844,9 +3844,52 @@ Primary use:	Showcase Portfolio
 }
 
 
-@media only screen and (max-width: 479px) {	
+.next-hero-subtitle1 {
+	font-size: 25px;
+}
 
+
+.contact_text {
+	margin-left: 50px;
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 722px) {	
+.privacy_div {
+
+}
+
+.contact_text {
+	margin-left: -300px;
+	margin-left: -346px;
+	
+}
+
+.next-hero-subtitle1 {
+	margin-left: -300px;
+
+}
 	
 
 
 }
+
+
+@media only screen and (max-width: 415px) {	
+	
+	
+	.contact_text {
+		font-size: 15px;
+	}
+	
+	
+
+
+	.privacy {
+		margin-left: -156px;
+		font-size: 15px;
+	}
+		
+	
+	
+	}
