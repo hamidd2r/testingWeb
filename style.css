@@ -774,7 +774,7 @@ Primary use:	Showcase Portfolio
 	.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .two_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
 		float: left!important;
 		margin-bottom: 10px!important;
-		/* margin-right: 4%!important; */
+		margin-right: 4%!important;
 		position: relative!important;
 	}
 
